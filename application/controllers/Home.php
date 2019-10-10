@@ -3,6 +3,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Home extends CI_Controller {
 	public function index(){
-		$this->template->load('template_utama','Home/index');
+		$this->template->load('template_utama','home/index');
 	}
 }
